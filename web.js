@@ -12,6 +12,7 @@ app.listen(port, function() {
 });
 function getResponse()
 {
+    var fs = require('fs');
     var buff = fs.readFileSync("index.html");
     return buff.toString();
 }
