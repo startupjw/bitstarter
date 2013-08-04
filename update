@@ -1,0 +1,2 @@
+rm /var/www/index.html
+cp index.html /var/www/index.html
